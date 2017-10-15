@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Task List</string>
+    <string name="display_activity_name">Display Tasks Activity</string>
+    <string name="add_activity_name">Add Task Activity</string>
+    <string name="edit_activity_name">Edit Task Activity</string>
+    <string name="task_title_label">Title</string>
+    <string name="task_title_hint">Enter a title for this task.</string>
+    <string name="task_description_label">Description</string>
+    <string name="task_description_hint">Enter a description for this task.</string>
+    <string name="task_details_label">Details</string>
+    <string name="task_due_date">Due date:</string>
+    <string name="task_checked_completed">Completed</string>
+    <string name="task_checked_pending">Pending</string>
+    <string name="tasks_title">Tasks</string>
+    <string name="taskListEmpty">Task List Empty\nClick (+)</string>
+    <string name="new_task">New task</string>
+    <string name="update_task">Update</string>
+    <string name="delete_task">Delete</string>
+    <string name="email_task">Email Task</string>
+    <string name="date_picker_title">Date of Task:</string>
+
+    <string name="task_category">Task Category</string>
+    <string-array name="category_array">
+        <item>Personal</item>
+        <item>Home</item>
+        <item>Work</item>
+    </string-array>
+
+    <string name="task_priority">Task Priority</string>
+    <string-array name="priority_array">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_item">Add Item</string>
+</resources>

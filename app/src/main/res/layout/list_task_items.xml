@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/task_list_item_taskCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:enabled="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:padding="4dp"
+        android:paddingEnd="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"/>
+
+    <TextView
+        android:id="@+id/task_list_item_titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/task_list_item_taskCheckBox"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="@string/task_title_label"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/task_list_item_descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task_list_item_titleTextView"
+        android:layout_toLeftOf="@id/task_list_item_taskCheckBox"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="@string/task_description_label"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/task_list_item_dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task_list_item_descriptionTextView"
+        android:layout_toLeftOf="@id/task_list_item_taskCheckBox"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/task_due_date"/>
+
+    <TextView
+        android:id="@+id/task_list_item_categoryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task_list_item_dateTextView"
+        android:layout_toLeftOf="@id/task_list_item_taskCheckBox"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/task_category"/>
+
+    <TextView
+        android:id="@+id/task_list_item_priorityTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task_list_item_categoryTextView"
+        android:layout_toLeftOf="@id/task_list_item_taskCheckBox"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/task_priority"/>
+
+    <ImageView
+        android:id="@+id/task_list_item_iconView"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/task_list_item_categoryTextView"
+        android:layout_toRightOf="@id/task_list_item_priorityTextView"
+
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"/>
+</RelativeLayout>
+
+<!--android:icon="@drawable/ic_priority_high"-->
